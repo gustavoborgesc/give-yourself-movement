@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { ChallengesProvider } from "../contexts/ChallengesContext";
 import "../styles/global.css";
 
 function MyApp({ Component, pageProps }) {
@@ -7,7 +8,10 @@ function MyApp({ Component, pageProps }) {
             <Head>
                 <title>G.YS.M</title>
             </Head>
-            <Component {...pageProps} />
+
+            <ChallengesProvider>
+                <Component {...pageProps} />
+            </ChallengesProvider>
         </>
     );
 }
