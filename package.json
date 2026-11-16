@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "js-cookie": "^3.0.8",
-    "next": "16.4.5",
+    "next": "16.4.6",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },
@@ -24,6 +24,6 @@
     "postcss": "8.5.32"
   },
   "engines": {
-    "node": "26.13.0"
+    "node": "26.13.1"
   }
 }
